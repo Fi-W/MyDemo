@@ -12,8 +12,8 @@ from io import BytesIO
 import streamlit as st
 
 
-st.set_page_config(page_title="CV InfraCam Recognition", page_icon="🌍")
-st.sidebar.header("CV: Infrared Camera Recognition of Human and Vehicle")
+st.set_page_config(page_title="CV InfraCam Detection", page_icon="🌍")
+st.sidebar.header("CV: Infrared Camera Detection of Human and Vehicle")
 
 model = YOLO('./InfraCamR/static/best.pt')
 
@@ -31,9 +31,24 @@ with st.sidebar:
                          icons=['camera-video-fill','image'])
     
 if choose == '视频处理 Video':
-        st.title('红外摄像头人车识别项目')
-        st.header("Infrared Camera Recognition of Human and Vehicle")
-        st.markdown("<hr>", unsafe_allow_html=True)
+        st.title('红外摄像头人车检测项目')
+        st.header("Infrared Camera Detection of Human and Vehicle")
+#        st.markdown("<hr>", unsafe_allow_html=True)
+        
+        st.markdown(
+        """ 
+        
+        **Notice**:   
+        This is a demo of computer vision model for infrared camera detection of human and vehicle.    
+        The model is trained on a dataset of 30788 images and 29970 videos. 
+        YOLO (v8n) is used in the training and testing process and a best model is obtained.  
+        The current accuracy is around 0.69.  
+        
+
+        """
+        )
+        st.divider()
+
         tab1, tab2 = st.tabs(['案例效果 Example', '视频处理 Video'])
         with tab1:
             # 创建两个并排的列
@@ -96,7 +111,23 @@ if choose == '视频处理 Video':
 elif choose == '图片处理 Image':
         st.title('红外摄像头人车识别项目')
         st.header("Infrared Camera Recognition of Human and Vehicle")
-        st.markdown("<hr>", unsafe_allow_html=True)
+#        st.markdown("<hr>", unsafe_allow_html=True)
+
+        st.markdown(
+        """ 
+        
+        **Notice**:   
+        This is a demo of computer vision model for infrared camera detection of human and vehicle.    
+        The model is trained on a dataset of 30788 images and 29970 videos. 
+        YOLO (v8n) is used in the training and testing process and a best model is obtained.  
+        The current accuracy is around 0.69.  
+        
+
+        """
+        )
+
+        st.divider()
+
         tab1, tab2 = st.tabs(['案例效果 Example', '图片处理 Image'])
 
         with tab1:

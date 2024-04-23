@@ -17,7 +17,7 @@ st.markdown(
     **Notice**:   
     This is a simple demo of machine learning model for sentiment analysis, mainly focuses on hotel user comments.  
     The current accuracy is around 0.89 while performs a bit better for longer texts than shorter ones.  
-    There is only two classification for now, positive and negative withoout neutral. So for comments contains both positive and negative parts, the accuracy might be lower.  
+    There is only two classification for now, positive and negative without neutral. So for comments contain both positive and negative parts, the accuracy might be lower.  
       
 
 """

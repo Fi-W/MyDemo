@@ -30,7 +30,7 @@ st.markdown(
 
     ### What I have managed so far?
     - Machine Learning: User comment sentiment analysis (mainly focuses on hotel reviews)
-    - Computer Vision: Infrared Camera Recognition of Human and Vehicle
+    - Computer Vision: Infrared Camera Detection of Human and Vehicle
     
     ###### More to come!
 """
