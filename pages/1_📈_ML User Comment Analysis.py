@@ -3,12 +3,12 @@ import pandas as pd
 import joblib
 import jieba
 
-st.set_page_config(page_title="ML: User Comment Analysis", page_icon="📈")
+st.set_page_config(page_title="ML User Comment Analysis", page_icon="📈")
 
-st.sidebar.header("ML: User Comment Analysis")
+st.sidebar.header("Machine Learning: Hotel Review Analysis")
 
-st.title("机器学习 - 用户评论情感分析展示")
-st.header("Machine Learning - User Comment Analysis Demo")
+st.title("机器学习 - 酒店评论情感分析展示")
+st.header("Machine Learning - Hotel Review Analysis Demo")
 
 
 st.markdown(
