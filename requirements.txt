@@ -1,5 +1,10 @@
-matplotlib
+jieba
+joblib
 numpy
+pandas
+scikit_learn
+streamlit
+matplotlib
 opencv_contrib_python
 opencv_python_headless
 streamlit

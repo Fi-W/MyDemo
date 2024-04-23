@@ -1,6 +1,0 @@
-jieba
-joblib
-numpy
-pandas
-scikit_learn
-streamlit
