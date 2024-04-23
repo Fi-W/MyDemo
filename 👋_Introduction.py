@@ -5,10 +5,11 @@ st.set_page_config(
     page_icon="👋",
 )
 
-st.sidebar.header("Mapping Demo")
+
 
 st.write("# Welcome to My Demo! 👋")
 
+st.sidebar.header("Introduction")
 st.sidebar.success("Select a demo above.")
 
 st.markdown(

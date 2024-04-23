@@ -13,7 +13,7 @@ import streamlit as st
 
 
 st.set_page_config(page_title="CV: InfraCam Recognition", page_icon="🌍")
-
+st.sidebar.header("CV: Human & Vehicle Infrared Camera Recognition")
 
 model = YOLO('./InfraCamR/static/best.pt')
 
