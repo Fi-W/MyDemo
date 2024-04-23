@@ -1,0 +1,9 @@
+matplotlib
+numpy
+opencv_contrib_python
+opencv_python_headless
+streamlit
+streamlit_option_menu
+ultralytics
+dill
+Pillow
