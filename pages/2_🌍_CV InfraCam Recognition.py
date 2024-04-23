@@ -27,10 +27,10 @@ def load_local_image(uploaded_file):
 
 #定义边栏导航
 with st.sidebar:
-    choose = option_menu('请选择 Please choose',['视频处理 Viedo','图片处理 Image'],
+    choose = option_menu('请选择 Please choose',['视频处理 Video','图片处理 Image'],
                          icons=['camera-video-fill','image'])
     
-if choose == '视频处理 Viedo':
+if choose == '视频处理 Video':
         st.title('红外摄像头人车识别项目')
         st.header("Infrared Camera Recognition of Human and Vehicle")
         st.markdown("<hr>", unsafe_allow_html=True)
@@ -110,7 +110,7 @@ elif choose == '图片处理 Image':
 
             # 在第二列中播放处理后的图片
             with col2:
-                st.header("处理后的图像 Processed Image")
+                st.header("处理后的图片 Processed Image")
                 st.image('./InfraCamR/static/rgb_1002_detect.jpg')
         
         # 处理后的图片
