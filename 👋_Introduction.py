@@ -31,6 +31,7 @@ st.markdown(
     ### What I have managed so far?
     - Machine Learning: User comment sentiment analysis (mainly focuses on hotel reviews)
     - Computer Vision: Infrared Camera Detection of Human and Vehicle
+    - NLP: English to Chinese Translation (short sentences)
     
     ###### More to come!
 """
