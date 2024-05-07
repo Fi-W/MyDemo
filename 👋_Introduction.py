@@ -16,7 +16,7 @@ st.markdown(
     """
     This platform is designed to prove my learning ability and willingness in the field of computer science.  
 
-    Along with my progress in this area, I will further improve the page design as well as the models' performance as they are not good enough yet at the moment.
+    Along with my progress in this area, I will try to share more work pieces and further improve the page design as well as the models' performance.
 
     
 """
