@@ -15,7 +15,7 @@ import streamlit as st
 st.set_page_config(page_title="CV InfraCam Detection", page_icon="🌍")
 st.sidebar.header("CV: Infrared Camera Detection of Human and Vehicle")
 
-model = YOLO('./InfraCamR/static/best.pt')
+model = YOLO('./InfraCamR/best.pt')
 
 # @st.cache(show_spinner=False)
 def load_local_image(uploaded_file):
